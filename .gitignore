@@ -1,0 +1,27 @@
+﻿# Python environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local MLflow tracking data
+mlruns/
+mlflow.db
+mlflow.db-*
+mlartifacts/
+
+# Local backups
+app.py.backup-*
+
+# Environment secrets
+.env
+.env.*
+
+# Keep dependency templates
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
